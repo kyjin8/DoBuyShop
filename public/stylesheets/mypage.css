@@ -1,0 +1,259 @@
+* {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face {
+    font-family: 'NEXON Lv2 Gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'NEXON Lv2 Gothic', sans-serif;
+    font-size: 18px;
+}
+.mypage_container {
+    text-align: center;
+}
+.mypage_container h2 {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.getLists, .getTracking {
+    display: inline-block;
+    width: 42%;
+    vertical-align: top;
+    padding: 3%;
+}
+
+.btn_base {
+    margin: 10px 0;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin-bottom:20px;
+}
+
+/* left: 소유 nft */
+.mypage_card {
+    height: 120px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.mypage_card img {
+    width: 100px;
+    height: 100px;
+}
+
+.deliver_btn {
+    padding: 5px 12px;
+    border: none;
+    background: #8c5f41;
+    color: #fff;
+    padding-top:5px;
+    cursor: pointer;
+    font-family: 'NEXON Lv2 Gothic';
+    border-radius: 4px;
+}
+.deliver_btn:hover{
+    background: #884a20;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(-3px);
+    color: #fff;
+    box-shadow: 0 2px 3px black;
+}
+
+/* right: 배송정보 */
+.delivery_bill {
+    text-align: left;
+    padding: 5px 10px;
+}
+.delivery_bill p {
+    font-size: 15px;
+    margin-bottom: 3px;
+    padding-left: 3%;
+    line-height: 23px;
+}
+.delivery_bill span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+.info_btn {
+    font-size: 14px;
+    color: #fff;
+    background: #000;
+    margin-left: 3%;
+    font-family: 'NEXON Lv2 Gothic';
+}
+.info_btn:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(-3px);
+    color: #fff;
+    box-shadow: 0 2px 3px black;
+}
+
+/* 배송신청 */
+.req_deliver p {
+    margin: 5px 0;
+    margin-left: -40px;
+}
+.req_deliver{
+    margin-bottom: 20px;
+}
+.req_deliver span {
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.input_deliver_info{
+    height: 148px;
+    text-align: left;
+    border: 2px solid rgb(240 223 200);
+    width: 600px;
+    margin: auto;
+    
+}
+.input_deliver_info ul {
+    margin-top: 20px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+/* .input_deliver_info ul input {
+    margin-left:10px;
+}    */
+.input_deliver_info ul span {
+    margin-right: 10px;
+    font-weight: 700;
+
+}
+.input_deliver_info input {
+    height: 20px;
+    width: calc(100% - 100px);
+    border: 1px solid #c1c1c1;
+    padding: 0 5px;
+    margin-left: 4px;
+}
+.input_deliver_info button{
+    letter-spacing: 2px;
+    background: #8c5f41;
+    border-radius: 4px;
+    font-size: 16px;
+    float: right;
+    margin-right: 27px;
+    width: 73px;
+    height: 40px;
+}
+
+.deliver_product_info{
+    height: 100px; 
+    text-align:left;
+    border:2px solid rgb(240 223 200);
+    width: 600px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.deliver_product_info ul{
+    margin-top: 20px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.deliver_product_info ul span{
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+/* 운송장 발급 */
+.to_my_btn {
+    font-size: 15px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #8c5f4b;
+    color: #fff;
+    font-family: 'NEXON Lv2 Gothic';
+}
+
+.tracking_info {
+    width: 100%;
+}
+
+/* 배송조회 */
+.delivery_tracking_view h2, .delivery_bill_view h2{
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 3%;
+}
+
+.view_table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.view_table th{
+    padding: 16px 0 13px 0;
+    font-weight: 700;
+    border-top: 2px solid #333;
+    border-bottom: 1px solid #bec0c2;
+    background: #f2f2f2;
+    font-size: 16px;
+}
+.view_table td {
+    padding: 9px 10px 8px 10px;
+    border-bottom: solid 1px #e3e4e5;
+    border-right: 1px solid #e3e4e5;
+    line-height: 28px;
+    vertical-align: top;
+}
+.view_table td:last-child{
+    border-right: none;
+}
+
+.bill_info td {
+    height: 60px;
+}
+.tracking_info {
+    margin-top: 40px;
+}
+.tracking_info td {
+    padding: 9px 10px 8px 30px;
+    text-align: left;
+}
+.mypage_card_wrapper {
+    margin-top:20px
+ 
+}
+.mypage_card_wrapper img {
+    width:100px; 
+    height:100px; 
+    float:left; 
+    margin-left:10px; 
+    margin-top:20px;
+}
+.mypage_card {
+    height: 100px; 
+    text-align:left;
+}
+.mypage_card ul {
+    position:relative; 
+    left:10%;
+    font-size: 15px;
+    margin-bottom: 3px;
+    padding-left: 3%;
+    line-height: 23px;
+}
+.mypage_card ul li span{
+    font-weight: 700;
+    margin-right: 5px
+}
+

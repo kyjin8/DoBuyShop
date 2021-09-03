@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DoBuyShop</title>
+    <link rel='stylesheet' href='/stylesheets/market.css' />
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='/stylesheets/title.css' />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <!-- title -->
+    <div class="title">
+        <div class="navbar">
+            <div class="navbar_logo">
+                <a href="/">
+                    <img src="/images/dobuy_logo.PNG">
+                </a>
+            </div>
+            <ul class="navbar_menu">
+                <li><a href="/swap">Swap</a></li>
+                <li><a href="/market">NFT Market</a></li>
+                <li><a href="/trade">NFT Trade</a></li>
+                <li><a href="/mypage">My Page</a></li>
+            </ul>
+            <a href="#" class="navbar__toogleBtn">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <div class="Assert">
+        <div class="Assert_show">
+            <div class="assert_title">DoBuy NFT Market</div>
+            <div class="assert_coment">DoBuy NFT Market에 오신걸 환영합니다!</div>
+            <div class="assert_subcom">
+                저희 제품을 구매하시고 싶다면,<br>
+                DoBuy 토큰이나 Ethereum을 사용하세요.<br>
+                DoBuy 토큰으로 스왑하시려면, <a href="/swap">이 링크를 이용하세요.</a>
+            </div>
+        </div>
+        <div class="admins_btn"></div>
+        <div class="form_data"></div>
+        <div class="assert_body">
+            <div class="content">
+                <div class="content_box">
+                    Loading...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container_under">
+        <div class="container_title">DoBuy Market Transaction</div>
+        <div class="list_box">
+            <div class="list_show">
+                <div class="list_title">
+                    <div class="list_box_show">
+                        <div class="list_data">product</div><div class="list_data2">address</div>
+                    </div>
+                </div>
+                <div class="list_body">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+  <script src="/javascripts/title.js"></script>
+  <script src="/javascripts/web3.min.js"></script>
+  <script src="/javascripts/truffle-contract.js"></script>
+  <script src="/javascripts/market.js"></script>
+</html>

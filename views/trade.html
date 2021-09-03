@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DoBuyShop</title>
+    <link rel='stylesheet' href='/stylesheets/trade.css' />
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='/stylesheets/title.css' />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- title -->
+    <div class="title">
+      <div class="navbar">
+        <div class="navbar_logo">
+            <a href="/">
+                <img src="/images/dobuy_logo.PNG">
+            </a>
+        </div>
+        <ul class="navbar_menu">
+            <li><a href="/swap">Swap</a></li>
+            <li><a href="/market">NFT Market</a></li>
+            <li><a href="/trade">NFT Trade</a></li>
+            <li><a href="/mypage">My Page</a></li>
+        </ul>
+        <a href="#" class="navbar__toogleBtn">
+            <i class="fas fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="container_title">
+            DoBuy NFT Trade
+        </div>
+    </div>
+
+    <div class="container_box">
+        <div class="container_body">
+            <div class="tag_head">
+                보유한 NFT
+            </div>
+            <div class="btns">
+                <button class="btn_put" onclick="Trade.clicks('plus')">NFT 생성</button>
+                <div class="plus_box"></div>
+            </div>
+            <div class="tag_body">
+            </div>
+        </div>
+    </div>
+
+    <div class="sell_box">
+
+    </div>
+    
+    <div class="trade_container">
+        <div class="trade_container_body">
+            <div class="trade_titles">
+                판매중인 NFT
+            </div>
+            <div class="content">
+            </div>
+        </div>
+    </div>
+  </body>
+  <script src="/javascripts/title.js"></script>
+  <script src="/javascripts/web3.min.js"></script>
+  <script src="/javascripts/truffle-contract.js"></script>
+  <script src="/javascripts/trade.js"></script>
+</html>
