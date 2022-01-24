@@ -26,9 +26,11 @@ In order to operate the site normally,
       
 5. Import the Dobuy tokens by contract addresses:
 
-      | DoBuy Contract Address | DoBuyNFT Contract Address |
+      (put 0 for DBNFT token decimal)
+      | DoBuy Contract Address(DBT) | DoBuyNFT Contract Address(DBNFT) |
       | :---------: | :---------: |
       | 0x3bae4ed8738d379c72abb529d9969b8f8467d8f1 | 0x1fba53fbd4757d7c07fe2c54df8ff263e48dcab9 |
+
 6. it is recommended to install the following from cmd:
 
       ```sh
