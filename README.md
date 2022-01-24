@@ -11,8 +11,10 @@ It is possible to trade products with Ethereum and Dobuy token, which is an ERC2
 In order for the site to run normally, you need to install MetaMask.
 
 and must be installed from cmd:
+```sh
 npm install
 npm install @openzeppellin/contracts
+```
 
 ## Hosted Site URL
 
